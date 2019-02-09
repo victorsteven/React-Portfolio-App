@@ -1,15 +1,17 @@
 .header-color {
-    background: #f953c6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+
+background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background: #f953c6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     text-align: center;
 
     position: fixed;
@@ -27,12 +29,12 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
 .banner-text {
     background-color: black;
     opacity: .8;
-    width: 75%;
+    width: 50%;
     margin: auto;
     border-radius: 10px; 
 }
 .banner-text h1 {
-    font-size: 66px;
+    font-size: 50px;
     color: white;
     font-weight: bold;
 }
@@ -104,4 +106,19 @@ background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, F
 .contact-list i {
     font-size: 66px;
     padding-right: 5rem;
+}
+
+.resume-right-col {
+    background: #27221F;
+    color:white;
+    padding: 2em;
+
+}
+
+.img-style{
+    margin-top:100px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
 }

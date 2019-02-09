@@ -6,10 +6,13 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img
-                            src="https://imgur.com/I80W1Q0.png"
+                        {/* <img
+                            src="../small.jpg"
                             className ="avatar-img"
-                        />
+                        /> */}
+                        <img className="img-style" src={require('../small.jpg')} />
+
+
 
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
