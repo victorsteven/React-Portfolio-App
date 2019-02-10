@@ -33,22 +33,21 @@ background: #0f0c29;  /* fallback for old browsers */
     margin: auto;
     border-radius: 10px; 
 }
-.banner-text h1 {
-    font-size: 50px;
+.banner-text .topic {
+    margin-top: 20px;
+    font-size: 25px;
     color: white;
     font-weight: bold;
+    padding-top: 20px;
+
 }
 
-.banner-text hr {
-    border-top: 5px dotted white;
-    width: 50px;
-    margin: auto;
-}
-
-.banner-text p {
+.banner-text .tech {
     color: white;
     font-size: 15px;
-    padding: 1em;
+    text-align: left;
+    margin-left: 140px;
+
 }
 
 .social-links{
@@ -57,6 +56,7 @@ background: #0f0c29;  /* fallback for old browsers */
     justify-content: space-between;
     width: 50%;
     margin: auto;
+    padding-bottom: 20px; 
 }
 
 .social-links i {
@@ -120,5 +120,21 @@ background: #0f0c29;  /* fallback for old browsers */
     height: 200px;
     width: 200px;
     border: 1px solid black;
-    border-radius: 50%;
+    border-radius: 12px;
+}
+
+.img-style1{
+    /* margin-top:100px; */
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.img-style-resume{
+    margin-top:20px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 12px;
 }

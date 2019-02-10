@@ -6,36 +6,40 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        {/* <img
-                            src="../small.jpg"
-                            className ="avatar-img"
-                        /> */}
                         <img className="img-style" src={require('../small.jpg')} />
 
 
 
                         <div className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <p className="topic">Full Stack Web Developer</p>
 
-                            <hr/>
-                            <p> 
-                                HTML/CSS | JavaScript | ReactJS | VueJS | NodeJS | PHP | Laravel | MongoDB | PostgreSQL | Sequelize | Express 
-                            </p>
+                            {/* <hr/> */}
+                            {/* <p>  */}
+                                {/* HTML/CSS | JavaScript | ReactJS | VueJS | NodeJS | PHP | Laravel | MongoDB | PostgreSQL | Sequelize | Express  */}
+                                <ul className="tech">
+                                    <li>MERN Stack.</li>
+                                    <li>JavaScript, NodeJS, ReactJS, VueJS, Express, MongoDB, Jquery.</li>
+                                    <li>PHP, Laravel, PHPUnit.</li>
+                                    <li>HTML5, CSS3, Bootstrap, Semantic UI.</li>
+                                    <li>Linux, Docker, Devops.</li>
+                                </ul>
+                                
+                            {/* </p> */}
 
                             <div className="social-links">
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.linkedin.com/in/stevenchikodi" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-linkedin-square" aria-hidden ="true" ></i>
                                 </a>
 
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/victorsteven" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github-square" aria-hidden ="true" ></i>
                                 </a>
 
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://twitter.com/stevensunflash" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-twitter-square" aria-hidden ="true" ></i>
                                 </a>
 
-                                <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://web.facebook.com/victorsteven75" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-facebook-square" aria-hidden ="true" ></i>
                                 </a>
 

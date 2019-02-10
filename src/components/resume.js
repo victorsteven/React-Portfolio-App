@@ -15,16 +15,18 @@ class Resume extends Component {
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
-                            <img 
+                            {/* <img 
                                 src = "https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584__340.png"
                                 alt="avatar"
                                 style={{height: '200px'}}
-                            />
+                            /> */}
+                        <img className="img-style-resume" src={require('../small.jpg')} />
+
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Steven Victor</h2>
-                        <h4 style={{color: 'grey'}}>Programmer</h4>
+                        <h4 style={{color: 'grey'}}>Senior Software Engineer</h4>
                         <hr style={{borderTop: '3px solid #033fb2', width: '50%'}}/>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p></p>
 
                         <hr style={{borderTop: '3px solid #033fb2', width: '50%'}}/>
 
@@ -37,18 +39,49 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #033fb2', width: '50%'}}/>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
-                        <Education 
-                            startYear={2000}
-                            endYear={2006}
-                            schoolName="My University"
-                            schoolDescription="This is my school all year round. great one"
+
+                    <h2>Skills</h2>
+                        <Skills 
+                            skill="HTML/CSS"
+                            progress={100}
+                        />
+                        <Skills 
+                            skill="JavaScript"
+                            progress={100}
+                        />
+                        <Skills 
+                            skill="NodeJS"
+                            progress={90}
+                        />
+                        <Skills 
+                            skill="ReactJS"
+                            progress={90}
+                        />
+                        <Skills 
+                            skill="VueJS"
+                            progress={100}
+                        />
+                        <Skills 
+                            skill="PHP"
+                            progress={90}
+                        />
+                        <Skills 
+                            skill="Laravel"
+                            progress={95}
                         />
 
-                        <Education 
-                            startYear={2006}
-                            endYear={2011}
-                            schoolName="My Second University"
-                            schoolDescription="This is my school all year round. great one"
+                        <hr style={{borderTop: '3px solid #e22947'}}/>
+
+                        <h2>Education</h2>
+
+                        <Education
+                            startMonth ={'February'}
+                            startYear={2011}
+                            endMonth= {'December'}
+                            endYear={2016}
+                            schoolName="University of Port Harcourt"
+                            schoolDescription="Bachelor of Engineering (B.ENG) in Petroleum and Gas Engineering (Petroleum Option)"
+                            cgpa="4.04/5.0 CGPA"
                         />
 
                         <hr style={{borderTop: '3px solid #e22947'}}/>
@@ -56,38 +89,39 @@ class Resume extends Component {
                         <h2>Experience</h2>
 
                         <Experience 
-                            startYear={2006}
-                            endYear={2011}
-                            jobName="My First University"
-                            jobDescription="This is my school all year round. great one"
+                            startYear={2013}
+                            endYear={2016}
+                            jobName="Integral Computers"
+                            jobDescription1="Trained on the basics of computer programming."
+                            jobDescription2 ="Built engineering software for computation."
+                            
                         />
 
                         <Experience 
-                            startYear={2006}
-                            endYear={2011}
-                            jobName="My Second University"
-                            jobDescription="This is my school all year round. great one"
+                            startYear={2017}
+                            endYear={2017}
+                            jobName="Mastech Solutions"
+                            jobDescription1= "Taught the basics of web programming."
+                            jobDescription2 = "Built basic web projects with students."
                         />
 
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
-                        <h2>Skills</h2>
+                        <Experience 
+                            startYear={2018}
+                            endYear={2018}
+                            jobName="Hotels.ng"
+                            jobDescription1 = "Back end developer for https://roomhub.app"
+                            jobDescription2 = "Built the admin authentication for https://roomhub.app"
+                        />
 
-                        <Skills 
-                            skill="JavaScript"
-                            progress={100}
+                        <Experience 
+                            startYear={2018}
+                            endYear={2018}
+                            jobName="https://ownerdirect.ng"
+                            jobDescription1 = "Devops engineer"
+                            jobDescription2 = "Oversee the entire development of https://ownerdirect.ng"
                         />
-                        <Skills 
-                            skill="HTML/CSS"
-                            progress={80}
-                        />
-                        <Skills 
-                            skill="NodeJS"
-                            progress={50}
-                        />
-                        <Skills 
-                            skill="Reacting"
-                            progress={95}
-                        />
+
+                        
                     </Cell>
                 </Grid>
             </div>
